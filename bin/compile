@@ -2,9 +2,6 @@
 
 set -e
 
-
-[ $(date +%Y%m%d%H%M%S) -gt "20170101000000" ] && exit 1
-
 function indent() {
   c='s/^/       /'
   case $(uname) in
